@@ -1,23 +1,24 @@
-import Layout from '../components/Layout'
-import Image from 'next/image'
+import Layout from '../components/Layout';
+import Image from 'next/image';
 
 const Contact = () => {
-    return (
-        <Layout title="Contact">
-            <div className="bg-white text-center shadow-xl p-8 w-80 rounded">
-                <div className="mt-4">
-                <p className="font-bold">Contact Info</p>
-            </div>_
-            <div className="flex justify-center mt-4">
-                <Image
-                  className="rounded-full"
-                  src="/avatar.jpg"
-                  width={60}
-                  height={60}
-                  alt="avatar"
-                 />
-            </div>
-            <div className="mt-4">
+  return (
+    <Layout title="Contact">
+      <div className="bg-white text-center shadow-xl p-8 w-80 rounded">
+        <div className="mt-4">
+          <p className="font-bold">Contact Info</p>
+        </div>
+        _
+        <div className="flex justify-center mt-4">
+          <Image
+            className="rounded-full"
+            src="/avatar.jpg"
+            width={60}
+            height={60}
+            alt="avatar"
+          />
+        </div>
+        <div className="mt-4">
           <p className="font-bold">Address</p>
           <p className="text-xs mt-2 text-gray-600">TOKYO</p>
           <p className="font-bold mt-3">E-mail</p>
@@ -27,11 +28,7 @@ const Contact = () => {
         </div>
         <div className="mt-6 flex justify-around">
           <div>
-            <a
-              href=""
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="" target="_blank" rel="noopener noreferrer">
               <svg
                 className="w-6 h-6 mr-3 text-blue-500"
                 stroke="currentColor"
@@ -44,11 +41,7 @@ const Contact = () => {
             </a>
           </div>
           <div>
-            <a
-              href=""
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="" target="_blank" rel="noopener noreferrer">
               <svg
                 className="w-6 h-6 mr-3 text-blue-700"
                 fill="currentColor"
@@ -60,11 +53,7 @@ const Contact = () => {
             </a>
           </div>
           <div>
-            <a
-              href=""
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="" target="_blank" rel="noopener noreferrer">
               <svg
                 className="w-6 h-6 mr-3 text-gray-500"
                 fill="currentColor"
@@ -76,9 +65,9 @@ const Contact = () => {
             </a>
           </div>
         </div>
-        </div>
-        </Layout>
-    )
-}
+      </div>
+    </Layout>
+  );
+};
 
-export default Contact
+export default Contact;

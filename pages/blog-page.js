@@ -1,11 +1,22 @@
-import Layout from '../components/Layout'
+import Layout from '../components/Layout';
+import Post from '../components/Post';
+import { getAllPostData } from '../lib/posts';
 
-const Brog = () => {
-    return (
-        <Layout title="Blog">
-            Brog page
-        </Layout>
-    )
+const Brog = ({ posts }) => {
+  return (
+    <Layout title="Blog">
+      <ul className="m-10">
+        {posts && posts.map((post) => <Post key={posts.id} post={post} />)}
+      </ul>
+    </Layout>
+  );
+};
+
+export default Brog;
+
+export async function getStaticProps() {
+  const posts = await getAllPostData();
+  return {
+    props: { posts },
+  };
 }
-
-export default Brog
