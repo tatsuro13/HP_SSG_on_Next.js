@@ -28,7 +28,11 @@ const Contact = () => {
         </div>
         <div className="mt-6 flex justify-around">
           <div>
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.google.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <svg
                 className="w-6 h-6 mr-3 text-blue-500"
                 stroke="currentColor"
@@ -41,7 +45,11 @@ const Contact = () => {
             </a>
           </div>
           <div>
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.google.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <svg
                 className="w-6 h-6 mr-3 text-blue-700"
                 fill="currentColor"
@@ -53,7 +61,11 @@ const Contact = () => {
             </a>
           </div>
           <div>
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.google.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <svg
                 className="w-6 h-6 mr-3 text-gray-500"
                 fill="currentColor"
