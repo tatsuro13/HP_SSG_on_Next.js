@@ -1,8 +1,10 @@
+import Layout from '../components/Layout'
+
 const Brog = () => {
     return (
-        <div>
+        <Layout title="Blog">
             Brog page
-        </div>
+        </Layout>
     )
 }
 
